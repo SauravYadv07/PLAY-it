@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer glass-glow squircle (liquid jelly container) -->
+    <path
+        android:pathData="M 54 18 C 76 18 90 32 90 54 C 90 76 76 90 54 90 C 32 90 18 76 18 54 C 18 32 32 18 54 18 Z"
+        android:strokeWidth="2"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="18"
+                android:startY="18"
+                android:endX="90"
+                android:endY="90"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF007F" />
+                <item android:offset="0.5" android:color="#FF7F00" />
+                <item android:offset="1.0" android:color="#00F5FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Translucent glass reflection overlay -->
+    <path
+        android:pathData="M 54 22 C 72 22 86 36 86 54 C 86 63 80 70 74 76 C 68 82 54 86 54 86 C 36 86 22 72 22 54 C 22 36 36 22 54 22 Z"
+        android:fillAlpha="0.2">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="22"
+                android:startY="22"
+                android:endX="86"
+                android:endY="86"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#1AFFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner jelly glossy core -->
+    <path
+        android:pathData="M 54 30 C 67 30 78 41 78 54 C 78 67 67 78 54 78 C 41 78 30 67 30 54 C 30 41 41 30 54 30 Z"
+        android:fillAlpha="0.15">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="30"
+                android:endX="78"
+                android:endY="78"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF007F" />
+                <item android:offset="1.0" android:color="#000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Squishy, Organic Jelly Play Button (rounded, bulging triangle) -->
+    <path
+        android:pathData="M 44.5 35.5 C 43.2 34.2 41 35.1 41 37 L 41 71 C 41 72.9 43.2 73.8 44.5 72.5 L 69.5 55.5 C 70.8 54.6 70.8 53.4 69.5 52.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="41"
+                android:startY="34"
+                android:endX="71"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF2E93" />
+                <item android:offset="0.5" android:color="#FF8A00" />
+                <item android:offset="1.0" android:color="#FFD600" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Jelly shine dot -->
+    <path
+        android:pathData="M 45 42 A 2 2 0 1 1 41 42 A 2 2 0 1 1 45 42 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.6"/>
+</vector>

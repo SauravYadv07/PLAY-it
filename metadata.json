@@ -1,0 +1,6 @@
+{
+  "name": "PLAY it",
+  "description": "A polished Material 3 video player supporting custom network streams, HLS, local bookmarks, and playback history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
